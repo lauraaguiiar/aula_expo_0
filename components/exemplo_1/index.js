@@ -5,7 +5,7 @@ import styles from './styles';
 function Exemplo_0 () {
     return (
         <View style={styles.container}>
-             <Text> Minha primera tela</Text>
+             <Text style={styles.texto}> Minha primera tela</Text>
 
         </View>
 
