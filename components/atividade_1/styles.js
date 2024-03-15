@@ -10,6 +10,11 @@ const styles = StyleSheet.create({
         color:'violet',
         fontSize: 25,
       },
+
+      text: {
+        color:'#000',
+        fontSize: 25,
+      },
 });
 
 export default styles; 
