@@ -9,7 +9,13 @@ const styles = StyleSheet.create({
         width:'100%',
         alignItems: 'center',
     },
+     
+    container2:{
+        display:'flex',
+        flexDirection:'row',
+        width:-20,
 
+    },
     titulo: {
         fontSize: 30,
         fontWeight: 'bold',
@@ -25,6 +31,10 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         alignItems: 'center',
         borderColor: '#cc3fac',
+        margin:10,
+        height:50,
+        width:'40%',
+        
     },
     
     txtBotao:{
@@ -37,10 +47,17 @@ const styles = StyleSheet.create({
 
     },
 
+    txtpress:{
+        fontSize:25,
+        color:'#cc3fac',
+
+    },
+
     txtNumero:{
        fontSize: 35,
        color: '#cc3fac',
        marginVertical:10,
+       marginBottom:-50,
     },
 
 })
