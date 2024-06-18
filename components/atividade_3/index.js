@@ -36,7 +36,7 @@ export default function Atividade_3 () {
             styles.botao}
             >
                 
-                <Text style={styles.txtBotao}> +1 </Text>
+                <Text style={styles.txtBotao}> + </Text>
 
             </Pressable>
 
@@ -50,7 +50,7 @@ export default function Atividade_3 () {
             styles.botao}
             >
                 
-            <Text style={styles.txtBotao}> -1 </Text>
+            <Text style={styles.txtBotao}> - </Text>
 
             </Pressable>
 

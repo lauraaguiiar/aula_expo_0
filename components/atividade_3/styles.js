@@ -13,27 +13,23 @@ const styles = StyleSheet.create({
     container2:{
         display:'flex',
         flexDirection:'row',
-        width:'25%',
-
+        width:'50%',
     },
     titulo: {
         fontSize: 25,
         fontWeight: 'bold',
         marginVertical: 20,
         color: '#e80744',
-
     },
 
     botao:{
         borderWidth:3,
         padding: 10,
-        width:'40%',
+        width:'50%',
         borderRadius: 20,
         alignItems: 'center',
         borderColor: '#cc3fac',
-        margin:10,
-       
-        
+        marginVertical:10,
     },
     
     txtBotao:{
@@ -54,8 +50,9 @@ const styles = StyleSheet.create({
 
     txtNumero:{
        fontSize: 25,
-       color: '#cc3fac',
-       marginVertical:10,
+       color: '#cc3fac', 
+       padding: 10, 
+    //    marginVertical:10,
     },
 
 })
