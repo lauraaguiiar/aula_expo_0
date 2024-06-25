@@ -20,11 +20,11 @@ const styles= StyleSheet.create({
 
     input:{
         fontSize: 25,
-        color: '',
+        color: '#e80744',
         width: '80%',
         marginVertical: 10,
         borderWidth: 2,
-        borderColor:,
+        borderColor:'#cc3fac',
         padding: 5,
         borderRadius: 20,
 
@@ -32,7 +32,10 @@ const styles= StyleSheet.create({
     },
 
     texto:{
-        
+        fontSize: 25,
+        color: '#e80744',
+        width: '80%',
+        marginVertical:5,
     },
 
 })
